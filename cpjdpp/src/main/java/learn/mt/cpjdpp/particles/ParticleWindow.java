@@ -38,11 +38,19 @@ public class ParticleWindow extends Application {
         startThreads();
     }
 
+    @Override
+    public synchronized void stop() {
+        for (Thread thread : threads) {
+            thread.interrupt();
+        }
+        threads = null;
+    }
+
     public static void main(String[] args) {
         launch(args);
     }
 
-    private void startThreads() {
+    private synchronized void startThreads() {
         for (Thread thread : threads) {
             thread.start();
         }
@@ -62,10 +70,12 @@ public class ParticleWindow extends Application {
                         Thread.sleep(DELAY);
                         count += DELAY;
                     }
+                    System.out.println("Thread " + Thread.currentThread().getName()
+                            + " reached limit and finishes");
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    System.out.println("Thread " + Thread.currentThread().getName()
+                            + " is interrupted and finishes");
                 }
-                System.out.println("Thread " + Thread.currentThread().getName() + " finished");
             }
         };
         return new Thread(runnable, id);

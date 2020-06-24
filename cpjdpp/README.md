@@ -9,3 +9,9 @@ cpjdpp - Concurrent Programming in Java: Design Principles and Patterns, 2nd ed
 #### 1.2.4 Object Models and Mappings
 
 [WaterTank](src/main/java/learn/mt/cpjdpp/watertank/WaterTank.java)  
+
+### 1.4 Before/After Patterns
+
+#### 1.4.2 Adapters
+
+[AdaptedTank](src/main/java/learn/mt/cpjdpp/watertank/AdaptedTank.java) - not really an 'Adapter'.

@@ -10,6 +10,14 @@ public class WaterTank {
         currentVolume = 0.0;
     }
 
+    public double getCapacity() {
+        return capacity;
+    }
+
+    public double getCurrentVolume() {
+        return currentVolume;
+    }
+
     public void addWater(double amount) throws OverflowException {
         if (currentVolume + amount > capacity) {
             throw new OverflowException();

@@ -33,3 +33,14 @@ Chapter 1 - Concurrent Object-Oriented Programming
 #### 1.4.4 Method Adapters
 
 [TankWithMethodAdapter](src/main/java/learn/mt/cpjdpp/watertank/TankWithMethodAdapter.java)
+
+
+Chapter 2 - Exclusion
+---------------------
+
+### 2.1 Immutability
+
+#### 2.1.1 Applications
+
+2.1.1.1 Abstract Data Types (ADTs):
+[Fraction](src/main/java/learn/mt/cpjdpp/immutability/Fraction.java) 

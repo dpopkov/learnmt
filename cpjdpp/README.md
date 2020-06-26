@@ -38,6 +38,23 @@ Chapter 1 - Concurrent Object-Oriented Programming
 Chapter 2 - Exclusion
 ---------------------
 
+In a safe system, every object protects itself from integrity violations. 
+This sometimes requires the cooperation of other objects and their methods.
+
+Exclusion techniques preserve object invariants and avoid effects that would result from acting 
+upon even momentarily inconsistent state representations. Programming techniques and design patterns
+achieve exclusion by preventing multiple threads from concurrently modifying or acting upon object 
+representations. All approaches rely on one or more of three basic strategies:
+
+* Eliminating the need for some or all exclusion control by ensuring that methods never modify an 
+object's representation, so that the object cannot enter inconsistent states.
+
+* Dynamically ensuring that only one thread at a time can access object state, 
+by protecting objects with locks and related constructs.
+
+* Structurally ensuring that only one thread (or only one thread at a time) can 
+ever use a given object, by hiding or restricting access to it.
+
 ### 2.1 Immutability
 
 #### 2.1.1 Applications
@@ -67,3 +84,8 @@ Unless initialization is both very expensive and rarely needed, it is usually pr
 to take the simpler approach of declaring a singleton as a static final field.
 
 [EagerSingletonCounter](src/main/java/learn/mt/cpjdpp/synch/EagerSingletonCounter.java)
+
+#### 2.2.5 Deadlock
+
+[Cell](src/main/java/learn/mt/cpjdpp/synch/deadlocks/Cell.java),
+[TryToCreateDeadlock](src/main/java/learn/mt/cpjdpp/synch/deadlocks/TryToCreateDeadlock.java).

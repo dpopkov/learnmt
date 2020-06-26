@@ -44,3 +44,26 @@ Chapter 2 - Exclusion
 
 2.1.1.1 Abstract Data Types (ADTs):
 [Fraction](src/main/java/learn/mt/cpjdpp/immutability/Fraction.java) 
+
+### 2.2 Synchronization
+
+#### 2.2.2 Fully Synchronized Objects
+
+[ExpandableArray](src/main/java/learn/mt/cpjdpp/synch/ExpandableArray.java)
+
+### 2.3 Traversal
+
+2.2.3.1 Synchronized aggregate operations:
+[ExpandableArrayWidthConsumer](src/main/java/learn/mt/cpjdpp/synch/ExpandableArrayWidthConsumer.java)
+
+2.2.3.3 Versioned iterators:
+[ExpandableArrayWithIterator](src/main/java/learn/mt/cpjdpp/synch/ExpandableArrayWithIterator.java)
+
+#### 2.2.4 Statics and Singletons
+
+[LazySingletonCounter](src/main/java/learn/mt/cpjdpp/synch/LazySingletonCounter.java)
+
+Unless initialization is both very expensive and rarely needed, it is usually preferable 
+to take the simpler approach of declaring a singleton as a static final field.
+
+[EagerSingletonCounter](src/main/java/learn/mt/cpjdpp/synch/EagerSingletonCounter.java)

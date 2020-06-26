@@ -89,3 +89,8 @@ to take the simpler approach of declaring a singleton as a static final field.
 
 [Cell](src/main/java/learn/mt/cpjdpp/synch/deadlocks/Cell.java),
 [TryToCreateDeadlock](src/main/java/learn/mt/cpjdpp/synch/deadlocks/TryToCreateDeadlock.java).
+
+#### 2.2.6 Resource Ordering
+
+[CellWithResourceOrdering](src/main/java/learn/mt/cpjdpp/synch/deadlocks/CellWithResourceOrdering.java),
+[TryToCreateDeadlockOnOrdered](src/main/java/learn/mt/cpjdpp/synch/deadlocks/TryToCreateDeadlockOnOrdered.java).

@@ -19,7 +19,16 @@ mttij - Multithreading in "Thinking in Java"
 ### Using Executors
 [CachedThreadPool](src/main/java/learn/mt/mttij/p01basic/CachedThreadPool.java),
 [FixedThreadPool](src/main/java/learn/mt/mttij/p01basic/FixedThreadPool.java),
-[SingleThreadPool](src/main/java/learn/mt/mttij/p01basic/SingleThreadPool.java),
+[SingleThreadPool](src/main/java/learn/mt/mttij/p01basic/SingleThreadPool.java)
+
+### Producing return values from tasks
+[TaskWithResult](src/main/java/learn/mt/mttij/p01basic/TaskWithResult.java),
+[CallableDemo](src/main/java/learn/mt/mttij/p01basic/CallableDemo.java),
+[Ex05](src/main/java/learn/mt/mttij/p01basic/ex/Ex05.java)
+
+### Sleeping
+[SleepingTask](src/main/java/learn/mt/mttij/p01basic/SleepingTask.java),
+[Ex06SleepingTask](src/main/java/learn/mt/mttij/p01basic/ex/Ex06SleepingTask.java)
 
 2 - Sharing Resources
 ---------------------

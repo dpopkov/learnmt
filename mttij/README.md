@@ -30,6 +30,25 @@ mttij - Multithreading in "Thinking in Java"
 [SleepingTask](src/main/java/learn/mt/mttij/p01basic/SleepingTask.java),
 [Ex06SleepingTask](src/main/java/learn/mt/mttij/p01basic/ex/Ex06SleepingTask.java)
 
+### Priority
+[SimplePriorities](src/main/java/learn/mt/mttij/p01basic/SimplePriorities.java)  
+[Ex09Priorities](src/main/java/learn/mt/mttij/p01basic/ex/Ex09Priorities.java)
+
+### Daemon threads
+[SimpleDaemons](src/main/java/learn/mt/mttij/p01basic/SimpleDaemons.java)  
+[DaemonThreadFactory](src/main/java/learn/mt/mttij/p01basic/DaemonThreadFactory.java),
+[DaemonFromFactory](src/main/java/learn/mt/mttij/p01basic/DaemonFromFactory.java),
+[DaemonThreadPoolExecutor](src/main/java/learn/mt/mttij/p01basic/DaemonThreadPoolExecutor.java),
+[Daemons](src/main/java/learn/mt/mttij/p01basic/Daemons.java),
+[DaemonsDoNotRunFinally](src/main/java/learn/mt/mttij/p01basic/DaemonsDoNotRunFinally.java)  
+[Ex08](src/main/java/learn/mt/mttij/p01basic/ex/Ex08.java)
+
+### Coding variations
+[SimpleThread](src/main/java/learn/mt/mttij/p01basic/SimpleThread.java),
+[SelfManaged](src/main/java/learn/mt/mttij/p01basic/SelfManaged.java),
+[ThreadVariations](src/main/java/learn/mt/mttij/p01basic/ThreadVariations.java),
+[Ex10Fibonacci](src/main/java/learn/mt/mttij/p01basic/ex/Ex10Fibonacci.java)
+
 2 - Sharing Resources
 ---------------------
 

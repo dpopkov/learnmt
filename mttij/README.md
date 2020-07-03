@@ -70,6 +70,13 @@ mttij - Multithreading in "Thinking in Java"
 [EvenChecker](src/main/java/learn/mt/mttij/p01basic/sharing/EvenChecker.java),
 [EvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/EvenGenerator.java)
 
+### Resolving shared resource contention
+[SynchronizedEvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/SynchronizedEvenGenerator.java),
+[Ex11](src/main/java/learn/mt/mttij/p01basic/sharing/ex/Ex11.java)
+
+[MutexEvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/MutexEvenGenerator.java)  
+[AttemptLocking](src/main/java/learn/mt/mttij/p01basic/sharing/AttemptLocking.java)  
+
 3 - Terminating tasks
 ---------------------
 

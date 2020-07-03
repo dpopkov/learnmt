@@ -56,6 +56,12 @@ mttij - Multithreading in "Thinking in Java"
 [UnresponsiveUI](src/main/java/learn/mt/mttij/p01basic/UnresponsiveUI.java),
 [ResponsiveUI](src/main/java/learn/mt/mttij/p01basic/ResponsiveUI.java)
 
+### Catching exceptions
+[ExceptionThread](src/main/java/learn/mt/mttij/p01basic/ExceptionThread.java),
+[AttemptToCatchException](src/main/java/learn/mt/mttij/p01basic/AttemptToCatchException.java)
+
+[CaptureUncaughtException](src/main/java/learn/mt/mttij/p01basic/CaptureUncaughtException.java)
+
 2 - Sharing Resources
 ---------------------
 

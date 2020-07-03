@@ -65,6 +65,10 @@ mttij - Multithreading in "Thinking in Java"
 2 - Sharing Resources
 ---------------------
 
+### Improperly accessing resources
+[IntGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/IntGenerator.java),
+[EvenChecker](src/main/java/learn/mt/mttij/p01basic/sharing/EvenChecker.java),
+[EvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/EvenGenerator.java)
 
 3 - Terminating tasks
 ---------------------

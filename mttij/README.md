@@ -49,6 +49,13 @@ mttij - Multithreading in "Thinking in Java"
 [ThreadVariations](src/main/java/learn/mt/mttij/p01basic/ThreadVariations.java),
 [Ex10Fibonacci](src/main/java/learn/mt/mttij/p01basic/ex/Ex10Fibonacci.java)
 
+### Joining a thread
+[Joining](src/main/java/learn/mt/mttij/p01basic/Joining.java)
+
+### Creating responsive user interfaces
+[UnresponsiveUI](src/main/java/learn/mt/mttij/p01basic/UnresponsiveUI.java),
+[ResponsiveUI](src/main/java/learn/mt/mttij/p01basic/ResponsiveUI.java)
+
 2 - Sharing Resources
 ---------------------
 

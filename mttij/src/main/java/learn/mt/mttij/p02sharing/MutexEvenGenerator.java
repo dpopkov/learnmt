@@ -1,4 +1,4 @@
-package learn.mt.mttij.p01basic.sharing;
+package learn.mt.mttij.p02sharing;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

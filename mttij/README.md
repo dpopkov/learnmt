@@ -66,16 +66,19 @@ mttij - Multithreading in "Thinking in Java"
 ---------------------
 
 ### Improperly accessing resources
-[IntGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/IntGenerator.java),
-[EvenChecker](src/main/java/learn/mt/mttij/p01basic/sharing/EvenChecker.java),
-[EvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/EvenGenerator.java)
+[IntGenerator](src/main/java/learn/mt/mttij/p02sharing/IntGenerator.java),
+[EvenChecker](src/main/java/learn/mt/mttij/p02sharing/EvenChecker.java),
+[EvenGenerator](src/main/java/learn/mt/mttij/p02sharing/EvenGenerator.java)
 
 ### Resolving shared resource contention
-[SynchronizedEvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/SynchronizedEvenGenerator.java),
-[Ex11](src/main/java/learn/mt/mttij/p01basic/sharing/ex/Ex11.java)
+[SynchronizedEvenGenerator](src/main/java/learn/mt/mttij/p02sharing/SynchronizedEvenGenerator.java),
+[Ex11](src/main/java/learn/mt/mttij/p02sharing/ex/Ex11.java)
 
-[MutexEvenGenerator](src/main/java/learn/mt/mttij/p01basic/sharing/MutexEvenGenerator.java)  
-[AttemptLocking](src/main/java/learn/mt/mttij/p01basic/sharing/AttemptLocking.java)  
+[MutexEvenGenerator](src/main/java/learn/mt/mttij/p02sharing/MutexEvenGenerator.java)  
+[AttemptLocking](src/main/java/learn/mt/mttij/p02sharing/AttemptLocking.java)
+
+### Atomicity and volatility
+
 
 3 - Terminating tasks
 ---------------------

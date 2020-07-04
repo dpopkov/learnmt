@@ -1,4 +1,4 @@
-package learn.mt.mttij.p01basic.sharing;
+package learn.mt.mttij.p02sharing;
 
 public class SynchronizedEvenGenerator extends IntGenerator {
     private int currentEvenValue;

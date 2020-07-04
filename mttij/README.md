@@ -78,7 +78,9 @@ mttij - Multithreading in "Thinking in Java"
 [AttemptLocking](src/main/java/learn/mt/mttij/p02sharing/AttemptLocking.java)
 
 ### Atomicity and volatility
-
+[AtomicityTest](src/main/java/learn/mt/mttij/p02sharing/atomicity/AtomicityTest.java)  
+[SerialNumberGenerator](src/main/java/learn/mt/mttij/p02sharing/atomicity/SerialNumberGenerator.java),
+[SerialNumberChecker](src/main/java/learn/mt/mttij/p02sharing/atomicity/SerialNumberChecker.java)
 
 3 - Terminating tasks
 ---------------------

@@ -88,7 +88,18 @@ mttij - Multithreading in "Thinking in Java"
 [Ex14TimerScaling](src/main/java/learn/mt/mttij/p02sharing/atomicity/ex/Ex14TimerScaling.java)
 
 ### Critical sections
+These examples do not work properly:  
+[Pair](src/main/java/learn/mt/mttij/p02sharing/critical/Pair.java),
+[PairManager](src/main/java/learn/mt/mttij/p02sharing/critical/PairManager.java),
+[PairManager1](src/main/java/learn/mt/mttij/p02sharing/critical/PairManager1.java),
+[PairManager2](src/main/java/learn/mt/mttij/p02sharing/critical/PairManager2.java),  
+[PairManipulator](src/main/java/learn/mt/mttij/p02sharing/critical/PairManipulator.java),
+[PairChecker](src/main/java/learn/mt/mttij/p02sharing/critical/PairChecker.java),
+[CriticalSection](src/main/java/learn/mt/mttij/p02sharing/critical/CriticalSection.java)
 
+[ExplicitPairManager1](src/main/java/learn/mt/mttij/p02sharing/critical/ExplicitPairManager1.java),
+[ExplicitPairManager2](src/main/java/learn/mt/mttij/p02sharing/critical/ExplicitPairManager2.java),
+[ExplicitCriticalSection](src/main/java/learn/mt/mttij/p02sharing/critical/ExplicitCriticalSection.java)
 
 3 - Terminating tasks
 ---------------------

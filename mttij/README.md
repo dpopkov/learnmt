@@ -82,6 +82,14 @@ mttij - Multithreading in "Thinking in Java"
 [SerialNumberGenerator](src/main/java/learn/mt/mttij/p02sharing/atomicity/SerialNumberGenerator.java),
 [SerialNumberChecker](src/main/java/learn/mt/mttij/p02sharing/atomicity/SerialNumberChecker.java)
 
+### Atomic classes
+[AtomicIntegerTest](src/main/java/learn/mt/mttij/p02sharing/atomicity/AtomicIntegerTest.java),
+[AtomicEvenGenerator](src/main/java/learn/mt/mttij/p02sharing/atomicity/AtomicEvenGenerator.java)  
+[Ex14TimerScaling](src/main/java/learn/mt/mttij/p02sharing/atomicity/ex/Ex14TimerScaling.java)
+
+### Critical sections
+
+
 3 - Terminating tasks
 ---------------------
 

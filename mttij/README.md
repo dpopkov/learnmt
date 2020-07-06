@@ -101,6 +101,11 @@ These examples do not work properly:
 [ExplicitPairManager2](src/main/java/learn/mt/mttij/p02sharing/critical/ExplicitPairManager2.java),
 [ExplicitCriticalSection](src/main/java/learn/mt/mttij/p02sharing/critical/ExplicitCriticalSection.java)
 
+### Synchronization on other objects
+[SyncObject](src/main/java/learn/mt/mttij/p02sharing/critical/SyncObject.java),
+[Ex15](src/main/java/learn/mt/mttij/p02sharing/critical/ex/Ex15.java),
+[Ex16](src/main/java/learn/mt/mttij/p02sharing/critical/ex/Ex16.java)
+
 3 - Terminating tasks
 ---------------------
 

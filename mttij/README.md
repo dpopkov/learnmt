@@ -113,7 +113,10 @@ These examples do not work properly:
 3 - Terminating tasks
 ---------------------
 
-### The ornamental garden
+### The ornamental garden example
+[Count](src/main/java/learn/mt/mttij/p03terminating/garden/Count.java),
+[Entrance](src/main/java/learn/mt/mttij/p03terminating/garden/Entrance.java),
+[OrnamentalGarden](src/main/java/learn/mt/mttij/p03terminating/garden/OrnamentalGarden.java)
 
 
 4 - Cooperation between tasks

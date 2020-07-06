@@ -106,8 +106,14 @@ These examples do not work properly:
 [Ex15](src/main/java/learn/mt/mttij/p02sharing/critical/ex/Ex15.java),
 [Ex16](src/main/java/learn/mt/mttij/p02sharing/critical/ex/Ex16.java)
 
+### Thread local storage
+[ThreadLocalVariableHolder](src/main/java/learn/mt/mttij/p02sharing/ThreadLocalVariableHolder.java)
+
+
 3 - Terminating tasks
 ---------------------
+
+### The ornamental garden
 
 
 4 - Cooperation between tasks

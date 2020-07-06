@@ -118,6 +118,21 @@ These examples do not work properly:
 [Entrance](src/main/java/learn/mt/mttij/p03terminating/garden/Entrance.java),
 [OrnamentalGarden](src/main/java/learn/mt/mttij/p03terminating/garden/OrnamentalGarden.java)
 
+### Interruption
+[SleepBlocked](src/main/java/learn/mt/mttij/p03terminating/interruption/SleepBlocked.java),
+[IOBlocked](src/main/java/learn/mt/mttij/p03terminating/interruption/IOBlocked.java),
+[SynchronizedBlocked](src/main/java/learn/mt/mttij/p03terminating/interruption/SynchronizedBlocked.java),  
+[Interrupting](src/main/java/learn/mt/mttij/p03terminating/interruption/Interrupting.java)  
+[CloseResource](src/main/java/learn/mt/mttij/p03terminating/interruption/CloseResource.java)  
+[Ex18Interrupting](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/Ex18Interrupting.java)  
+Ex19:
+[Count](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex19/Count.java), 
+[Entrance](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex19/Entrance.java), 
+[OrnamentalGarden](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex19/OrnamentalGarden.java)  
+Ex20:
+[LiftOff](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex20/LiftOff.java),
+[CachedThreadPool](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex20/CachedThreadPool.java)
+
 
 4 - Cooperation between tasks
 -----------------------------

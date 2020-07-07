@@ -148,6 +148,11 @@ Ex20:
 4 - Cooperation between tasks
 -----------------------------
 
+### Waxomatic example
+[Car](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/Car.java),
+[WaxOn](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/WaxOn.java),
+[WaxOff](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/WaxOff.java),
+[WaxOMatic](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/WaxOMatic.java)
 
 5 - Deadlock
 ------------

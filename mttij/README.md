@@ -154,6 +154,16 @@ Ex20:
 [WaxOff](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/WaxOff.java),
 [WaxOMatic](src/main/java/learn/mt/mttij/p4cooperation/waxomatic/WaxOMatic.java)
 
+[Ex21](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex21.java),
+[Ex22v1](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex22v1.java),
+[Ex22v2](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex22v2.java)
+
+#### notify() vs notifyAll()
+[Blocker](src/main/java/learn/mt/mttij/p4cooperation/notifyall/Blocker.java),
+[Task](src/main/java/learn/mt/mttij/p4cooperation/notifyall/Task.java),
+[Task2](src/main/java/learn/mt/mttij/p4cooperation/notifyall/Task2.java),
+[NotifyVsNotifyAll](src/main/java/learn/mt/mttij/p4cooperation/notifyall/NotifyVsNotifyAll.java)
+
 5 - Deadlock
 ------------
 

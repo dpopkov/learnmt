@@ -131,8 +131,14 @@ Ex19:
 [OrnamentalGarden](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex19/OrnamentalGarden.java)  
 Ex20:
 [LiftOff](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex20/LiftOff.java),
-[CachedThreadPool](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex20/CachedThreadPool.java)
+[CachedThreadPool](src/main/java/learn/mt/mttij/p03terminating/interruption/ex/ex20/CachedThreadPool.java)  
 
+#### Blocked by a mutex
+[MultiLock](src/main/java/learn/mt/mttij/p03terminating/interruption/MultiLock.java)
+
+[BlockedMutex](src/main/java/learn/mt/mttij/p03terminating/blocked/BlockedMutex.java),
+[BlockedTask](src/main/java/learn/mt/mttij/p03terminating/blocked/BlockedTask.java),
+[InterruptingBlockedTask](src/main/java/learn/mt/mttij/p03terminating/blocked/InterruptingBlockedTask.java)
 
 4 - Cooperation between tasks
 -----------------------------

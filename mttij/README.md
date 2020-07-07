@@ -140,6 +140,11 @@ Ex20:
 [BlockedTask](src/main/java/learn/mt/mttij/p03terminating/blocked/BlockedTask.java),
 [InterruptingBlockedTask](src/main/java/learn/mt/mttij/p03terminating/blocked/InterruptingBlockedTask.java)
 
+### Checking for an interrupt
+[NeedsCleanup](src/main/java/learn/mt/mttij/p03terminating/checking/NeedsCleanup.java),
+[BlockedAndInterrupted](src/main/java/learn/mt/mttij/p03terminating/checking/BlockedAndInterrupted.java),
+[InterruptingIdiom](src/main/java/learn/mt/mttij/p03terminating/checking/InterruptingIdiom.java)
+
 4 - Cooperation between tasks
 -----------------------------
 

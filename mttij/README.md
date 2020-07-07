@@ -164,6 +164,12 @@ Ex20:
 [Task2](src/main/java/learn/mt/mttij/p4cooperation/notifyall/Task2.java),
 [NotifyVsNotifyAll](src/main/java/learn/mt/mttij/p4cooperation/notifyall/NotifyVsNotifyAll.java)
 
+### Producers and consumers
+[Meal](src/main/java/learn/mt/mttij/p4cooperation/restaurant/Meal.java),
+[Chef](src/main/java/learn/mt/mttij/p4cooperation/restaurant/Chef.java),
+[WaitPerson](src/main/java/learn/mt/mttij/p4cooperation/restaurant/WaitPerson.java),
+[Restaurant](src/main/java/learn/mt/mttij/p4cooperation/restaurant/Restaurant.java)
+
 5 - Deadlock
 ------------
 

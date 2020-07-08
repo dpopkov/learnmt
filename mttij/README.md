@@ -182,6 +182,12 @@ Ex26:
 [BusBoy](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/BusBoy.java),
 [Restaurant](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/Restaurant.java)
 
+#### Explicit Lock and Condition objects
+[Car](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/Car.java),
+[WaxOn](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/WaxOn.java),
+[WaxOff](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/WaxOff.java),
+[WaxOMatic2](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/WaxOMatic2.java)
+
 5 - Deadlock
 ------------
 

@@ -188,6 +188,10 @@ Ex26:
 [WaxOff](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/WaxOff.java),
 [WaxOMatic2](src/main/java/learn/mt/mttij/p4cooperation/waxomatic2/WaxOMatic2.java)
 
+### Producer-consumers and queues
+[LiftOffRunner](src/main/java/learn/mt/mttij/p4cooperation/queues/LiftOffRunner.java),
+[TestBlockingQueues](src/main/java/learn/mt/mttij/p4cooperation/queues/TestBlockingQueues.java)
+
 5 - Deadlock
 ------------
 

@@ -170,6 +170,18 @@ Ex20:
 [WaitPerson](src/main/java/learn/mt/mttij/p4cooperation/restaurant/WaitPerson.java),
 [Restaurant](src/main/java/learn/mt/mttij/p4cooperation/restaurant/Restaurant.java)
 
+Ex24:
+[Ex24Queue](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex24Queue.java),
+[Ex24Producer](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex24Producer.java),
+[Ex24Consumer](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex24Consumer.java),
+[Ex24Main](src/main/java/learn/mt/mttij/p4cooperation/ex/Ex24Main.java)
+
+Ex26:
+[Chef](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/Chef.java),
+[WaitPerson](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/WaitPerson.java),
+[BusBoy](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/BusBoy.java),
+[Restaurant](src/main/java/learn/mt/mttij/p4cooperation/ex/ex26/Restaurant.java)
+
 5 - Deadlock
 ------------
 

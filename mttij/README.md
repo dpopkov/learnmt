@@ -192,6 +192,14 @@ Ex26:
 [LiftOffRunner](src/main/java/learn/mt/mttij/p4cooperation/queues/LiftOffRunner.java),
 [TestBlockingQueues](src/main/java/learn/mt/mttij/p4cooperation/queues/TestBlockingQueues.java)
 
+ToastOMatic example:  
+[Toast](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Toast.java),  
+[Toaster](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Toaster.java),
+[Butterer](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Butterer.java),
+[Jammer](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Jammer.java),
+[Eater](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Eater.java),  
+[ToastOMatic](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/ToastOMatic.java)
+
 5 - Deadlock
 ------------
 

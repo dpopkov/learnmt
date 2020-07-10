@@ -208,6 +208,15 @@ Using pipes:
 5 - Deadlock
 ------------
 
+Dining Philosophers example:  
+[Chopstick](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/Chopstick.java),
+[Philosopher](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/Philosopher.java),
+[DeadlockingDiningPhilosophers](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/DeadlockingDiningPhilosophers.java),  
+[FixedDiningPhilosophers](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/FixedDiningPhilosophers.java)
+
+EX31:
+[Ex31Philosopher](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/ex31/Ex31Philosopher.java),
+[Ex31DiningPhilosophers](src/main/java/learn/mt/mttij/p5deadlocks/philosophers/ex31/Ex31DiningPhilosophers.java)
 
 6 - New library components
 --------------------------

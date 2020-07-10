@@ -200,6 +200,11 @@ ToastOMatic example:
 [Eater](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/Eater.java),  
 [ToastOMatic](src/main/java/learn/mt/mttij/p4cooperation/toastomatic/ToastOMatic.java)
 
+Using pipes:  
+[Sender](src/main/java/learn/mt/mttij/p4cooperation/pipes/Sender.java),
+[Receiver](src/main/java/learn/mt/mttij/p4cooperation/pipes/Receiver.java),
+[PipedIO](src/main/java/learn/mt/mttij/p4cooperation/pipes/PipedIO.java)
+
 5 - Deadlock
 ------------
 

@@ -221,11 +221,14 @@ EX31:
 6 - New library components
 --------------------------
 
-CountDownLatch:  
+CountDownLatch:
 [TaskPortion](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/TaskPortion.java),
 [WaitingTask](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/WaitingTask.java),
 [CountDownLatchDemo](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/CountDownLatchDemo.java)
 
+CyclicBarrier:
+[Horse](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/Horse.java),
+[HorseRace](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/HorseRace.java)
 
 7 - Simulation
 -------------- 

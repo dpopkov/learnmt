@@ -230,6 +230,11 @@ CyclicBarrier:
 [Horse](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/Horse.java),
 [HorseRace](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/HorseRace.java)
 
+DelayQueue:
+[DelayedTask](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayedTask.java),
+[DelayedTaskConsumer](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayedTaskConsumer.java),
+[DelayQueueDemo](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayQueueDemo.java)
+
 7 - Simulation
 -------------- 
 

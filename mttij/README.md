@@ -241,6 +241,9 @@ PriorityBlockingQueue:
 [PrioritizedTaskConsumer](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PrioritizedTaskConsumer.java),
 [PriorityBlockingQueueDemo](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PriorityBlockingQueueDemo.java)
 
+The greenhouse controller with ScheduledExecutor:  
+[GreenHouseScheduler](src/main/java/learn/mt/mttij/p6newlib/scheduledexecutor/GreenHouseScheduler.java)
+
 7 - Simulation
 -------------- 
 

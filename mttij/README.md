@@ -221,28 +221,34 @@ EX31:
 6 - New library components
 --------------------------
 
-CountDownLatch:  
+### CountDownLatch  
 [TaskPortion](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/TaskPortion.java),
 [WaitingTask](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/WaitingTask.java),
 [CountDownLatchDemo](src/main/java/learn/mt/mttij/p6newlib/countdownlatch/CountDownLatchDemo.java)
 
-CyclicBarrier:  
+### CyclicBarrier  
 [Horse](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/Horse.java),
 [HorseRace](src/main/java/learn/mt/mttij/p6newlib/cyclicbarrier/HorseRace.java)
 
-DelayQueue:  
+### DelayQueue  
 [DelayedTask](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayedTask.java),
 [DelayedTaskConsumer](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayedTaskConsumer.java),
 [DelayQueueDemo](src/main/java/learn/mt/mttij/p6newlib/delayqueue/DelayQueueDemo.java)
 
-PriorityBlockingQueue:  
+### PriorityBlockingQueue  
 [PrioritizedTask](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PrioritizedTask.java),
 [PrioritizedTaskProducer](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PrioritizedTaskProducer.java),
 [PrioritizedTaskConsumer](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PrioritizedTaskConsumer.java),
 [PriorityBlockingQueueDemo](src/main/java/learn/mt/mttij/p6newlib/priorityblockingqueue/PriorityBlockingQueueDemo.java)
 
-The greenhouse controller with ScheduledExecutor:  
+### ScheduledThreadPoolExecutor
 [GreenHouseScheduler](src/main/java/learn/mt/mttij/p6newlib/scheduledexecutor/GreenHouseScheduler.java)
+
+### Semaphore
+[Pool](src/main/java/learn/mt/mttij/p6newlib/semaphore/Pool.java),
+[Fat](src/main/java/learn/mt/mttij/p6newlib/semaphore/Fat.java),
+[CheckoutTask](src/main/java/learn/mt/mttij/p6newlib/semaphore/CheckoutTask.java),
+[SemaphoreDemo](src/main/java/learn/mt/mttij/p6newlib/semaphore/SemaphoreDemo.java)
 
 7 - Simulation
 -------------- 

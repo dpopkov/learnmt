@@ -250,6 +250,11 @@ EX31:
 [CheckoutTask](src/main/java/learn/mt/mttij/p6newlib/semaphore/CheckoutTask.java),
 [SemaphoreDemo](src/main/java/learn/mt/mttij/p6newlib/semaphore/SemaphoreDemo.java)
 
+### Exchanger
+[ExchangerProducer](src/main/java/learn/mt/mttij/p6newlib/exchanger/ExchangerProducer.java),
+[ExchangerConsumer](src/main/java/learn/mt/mttij/p6newlib/exchanger/ExchangerConsumer.java),
+[ExchangerDemo](src/main/java/learn/mt/mttij/p6newlib/exchanger/ExchangerDemo.java)
+
 7 - Simulation
 -------------- 
 

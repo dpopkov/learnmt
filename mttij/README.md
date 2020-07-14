@@ -258,6 +258,13 @@ EX31:
 7 - Simulation
 -------------- 
 
+### Bank teller simulation
+[Customer](src/main/java/learn/mt/mttij/p7simulation/bankteller/Customer.java),
+[CustomerLine](src/main/java/learn/mt/mttij/p7simulation/bankteller/CustomerLine.java),
+[CustomerGenerator](src/main/java/learn/mt/mttij/p7simulation/bankteller/CustomerGenerator.java),  
+[Teller](src/main/java/learn/mt/mttij/p7simulation/bankteller/Teller.java),
+[TellerManager](src/main/java/learn/mt/mttij/p7simulation/bankteller/TellerManager.java),
+[BankTellerSimulation](src/main/java/learn/mt/mttij/p7simulation/bankteller/BankTellerSimulation.java)
 
 8 - Performance tuning
 ----------------------

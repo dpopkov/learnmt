@@ -277,6 +277,19 @@ EX31:
 [Restaurant](src/main/java/learn/mt/mttij/p7simulation/restaurant/Restaurant.java),
 [RestaurantWithQueues](src/main/java/learn/mt/mttij/p7simulation/restaurant/RestaurantWithQueues.java)
 
+### Distributing work (car assembling line example)
+[Car](src/main/java/learn/mt/mttij/p7simulation/distributing/Car.java),
+[CarQueue](src/main/java/learn/mt/mttij/p7simulation/distributing/CarQueue.java),
+[ChassisBuilder](src/main/java/learn/mt/mttij/p7simulation/distributing/ChassisBuilder.java),
+[Assembler](src/main/java/learn/mt/mttij/p7simulation/distributing/Assembler.java),
+[Robot](src/main/java/learn/mt/mttij/p7simulation/distributing/Robot.java),
+[RobotPool](src/main/java/learn/mt/mttij/p7simulation/distributing/RobotPool.java),
+[DriveTrainRobot](src/main/java/learn/mt/mttij/p7simulation/distributing/DriveTrainRobot.java),
+[WheelRobot](src/main/java/learn/mt/mttij/p7simulation/distributing/WheelRobot.java),
+[EngineRobot](src/main/java/learn/mt/mttij/p7simulation/distributing/Car.java),
+[Reporter](src/main/java/learn/mt/mttij/p7simulation/distributing/Reporter.java),
+[CarAssemblingDemo](src/main/java/learn/mt/mttij/p7simulation/distributing/CarAssemblingDemo.java)
+
 8 - Performance tuning
 ----------------------
 

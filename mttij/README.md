@@ -266,6 +266,17 @@ EX31:
 [TellerManager](src/main/java/learn/mt/mttij/p7simulation/bankteller/TellerManager.java),
 [BankTellerSimulation](src/main/java/learn/mt/mttij/p7simulation/bankteller/BankTellerSimulation.java)
 
+### Restaurant simulation
+[Food](src/main/java/learn/mt/mttij/p7simulation/restaurant/Food.java),
+[Course](src/main/java/learn/mt/mttij/p7simulation/restaurant/Course.java),
+[Plate](src/main/java/learn/mt/mttij/p7simulation/restaurant/Plate.java),
+[Order](src/main/java/learn/mt/mttij/p7simulation/restaurant/Order.java),  
+[Customer](src/main/java/learn/mt/mttij/p7simulation/restaurant/Customer.java),
+[WaitPerson](src/main/java/learn/mt/mttij/p7simulation/restaurant/WaitPerson.java),
+[Chef](src/main/java/learn/mt/mttij/p7simulation/restaurant/Chef.java),  
+[Restaurant](src/main/java/learn/mt/mttij/p7simulation/restaurant/Restaurant.java),
+[RestaurantWithQueues](src/main/java/learn/mt/mttij/p7simulation/restaurant/RestaurantWithQueues.java)
+
 8 - Performance tuning
 ----------------------
 

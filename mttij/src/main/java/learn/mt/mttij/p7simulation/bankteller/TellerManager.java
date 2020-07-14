@@ -1,6 +1,7 @@
 package learn.mt.mttij.p7simulation.bankteller;
 
 import java.util.LinkedList;
+import java.util.Objects;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.concurrent.ExecutorService;
@@ -71,10 +72,8 @@ public class TellerManager implements Runnable {
 
     private void reassignOneTeller() {
         Teller teller = workingTellers.poll();
-        if (teller != null) {
-            teller.doSomethingElse();
-            tellersDoingOtherThings.offer(teller);
-        }
+        Objects.requireNonNull(teller).doSomethingElse();
+        tellersDoingOtherThings.offer(teller);
     }
 
     @Override

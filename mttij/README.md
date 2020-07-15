@@ -309,5 +309,18 @@ Complex comparing:
 [AtomicAccumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/AtomicAccumulator.java),
 [SynchronizationComparisons](src/main/java/learn/mt/mttij/p8performance/mutex/complex/SynchronizationComparisons.java)
 
+### Lock-free containers
+
+Performance issues:  
+[Tester](src/main/java/learn/mt/mttij/p8performance/containers/Tester.java),  
+[ListTest](src/main/java/learn/mt/mttij/p8performance/containers/lists/ListTest.java),
+[SynchronizedArrayListTest](src/main/java/learn/mt/mttij/p8performance/containers/lists/SynchronizedArrayListTest.java),
+[CopyOnWriteArrayListTest](src/main/java/learn/mt/mttij/p8performance/containers/lists/CopyOnWriteArrayListTest.java),
+[ListComparisons](src/main/java/learn/mt/mttij/p8performance/containers/lists/ListComparisons.java),  
+[MapTest](src/main/java/learn/mt/mttij/p8performance/containers/maps/MapTest.java),
+[SynchronizedHashMapTest](src/main/java/learn/mt/mttij/p8performance/containers/maps/SynchronizedHashMapTest.java),
+[ConcurrentHashMapTest](src/main/java/learn/mt/mttij/p8performance/containers/maps/ConcurrentHashMapTest.java),
+[MapComparisons](src/main/java/learn/mt/mttij/p8performance/containers/maps/MapComparisons.java)
+
 9 - Active objects
 ------------------

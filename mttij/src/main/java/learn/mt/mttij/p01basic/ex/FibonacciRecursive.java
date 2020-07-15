@@ -1,6 +1,6 @@
 package learn.mt.mttij.p01basic.ex;
 
-import learn.mt.mttij.Generator;
+import learn.mt.mttij.util.Generator;
 
 public class FibonacciRecursive implements Generator<Integer> {
     private int count = 0;

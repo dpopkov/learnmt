@@ -1,6 +1,6 @@
 package learn.mt.mttij.p6newlib.exchanger;
 
-import learn.mt.mttij.Generator;
+import learn.mt.mttij.util.Generator;
 
 import java.util.List;
 import java.util.concurrent.Exchanger;

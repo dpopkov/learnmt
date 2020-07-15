@@ -1,4 +1,4 @@
-package learn.mt.mttij;
+package learn.mt.mttij.util;
 
 public interface Generator<T> {
     T next();

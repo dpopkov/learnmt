@@ -293,6 +293,21 @@ EX31:
 8 - Performance tuning
 ----------------------
 
+### Comparing mutex technologies
+
+Naive comparing:  
+[Incrementable](src/main/java/learn/mt/mttij/p8performance/mutex/naive/Incrementable.java),
+[SynchronizingIncrementable](src/main/java/learn/mt/mttij/p8performance/mutex/naive/SynchronizingIncrementable.java),
+[LockingIncrementable](src/main/java/learn/mt/mttij/p8performance/mutex/naive/LockingIncrementable.java),
+[LockingIncrementable](src/main/java/learn/mt/mttij/p8performance/mutex/naive/SimpleMicroBenchmark.java)
+
+Complex comparing:  
+[Accumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/Accumulator.java),
+[BaseAccumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/BaseAccumulator.java),
+[SynchronizedAccumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/SynchronizedAccumulator.java),
+[LockAccumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/LockAccumulator.java),
+[AtomicAccumulator](src/main/java/learn/mt/mttij/p8performance/mutex/complex/AtomicAccumulator.java),
+[SynchronizationComparisons](src/main/java/learn/mt/mttij/p8performance/mutex/complex/SynchronizationComparisons.java)
 
 9 - Active objects
 ------------------

@@ -322,5 +322,11 @@ Performance issues:
 [ConcurrentHashMapTest](src/main/java/learn/mt/mttij/p8performance/containers/maps/ConcurrentHashMapTest.java),
 [MapComparisons](src/main/java/learn/mt/mttij/p8performance/containers/maps/MapComparisons.java)
 
+### ReadWriteLocks
+[ReaderWriterList](src/main/java/learn/mt/mttij/p8performance/readwrite/ReaderWriterList.java),
+[ReaderWriterListTest](src/main/java/learn/mt/mttij/p8performance/readwrite/ReaderWriterListTest.java)
+
 9 - Active objects
 ------------------
+
+[ActiveObjectDemo](src/main/java/learn/mt/mttij/p9active/ActiveObjectDemo.java)

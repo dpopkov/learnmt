@@ -12,3 +12,13 @@ Extreme Java - Concurrency Performance
 [LambdaVsAnonymous](ch01/LambdaVsAnonymous.java), 
 [PassengerAndTrainDemo](ch01/PassengerAndTrainDemo.java),
 [Exercise 1 - JCIP Annotations](ch01/exer)
+
+### Chapter 2 - Thread Safety
+11 - Stack vs Heap memory  
+12 - Synchronization, Latent defects  
+13 - Atomicity  
+14 - Visibility:
+[WaitingForMeaningOfLife](ch02/WaitingForMeaningOfLife.java)    
+15 - Confinement  
+16 - Immutability:
+[Immutable1](ch02/Immutable1.java)

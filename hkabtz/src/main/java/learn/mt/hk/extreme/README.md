@@ -21,4 +21,6 @@ Extreme Java - Concurrency Performance
 [WaitingForMeaningOfLife](ch02/WaitingForMeaningOfLife.java)    
 15 - Confinement  
 16 - Immutability:
-[Immutable1](ch02/Immutable1.java)
+[Immutable1](ch02/Immutable1.java)  
+17 - Designing a thread-safe class  
+18 - Exercises: [Confined DateFormats](ch02/exer),

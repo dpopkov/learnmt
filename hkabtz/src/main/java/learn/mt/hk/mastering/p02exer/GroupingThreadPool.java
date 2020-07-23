@@ -1,10 +1,6 @@
 package learn.mt.hk.mastering.p02exer;
 
-import net.jcip.annotations.GuardedBy;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.RejectedExecutionException;
 
@@ -22,34 +18,28 @@ Create your own Thread Pool, using
     - method for viewing run queue length
  */
 public class GroupingThreadPool {
+    public static final int UNRESTRICTED_QUEUE = -1;
     private final ThreadGroup group = new ThreadGroup("ThreadPool Group");
-    private final Object queueLock = new Object();
-    @GuardedBy("queueLock")
     private final Queue<Runnable> queue = new LinkedList<>();
-    private final Object threadsLock = new Object();
-    private final List<PoolThread> threads;
-    private final int numThreads;
     private final int queueCapacity;
-    private final ControlThread controlThread = new ControlThread();
 
     /**
      * Constructs pool with the fixed number of threads.
      * @param numThreads size of pool
-     * @param queueCapacity maximum number of elements in queue
      */
-    public GroupingThreadPool(int numThreads, int queueCapacity) {
-        threads = new ArrayList<>(numThreads);
-        this.numThreads = numThreads;
-        this.queueCapacity = queueCapacity;
-        initThreads();
+    public GroupingThreadPool(int numThreads) {
+        this(numThreads, UNRESTRICTED_QUEUE);
     }
 
-    private void initThreads() {
-        controlThread.start();
+    /**
+     * Constructs pool with the fixed number of threads and queue length.
+     * @param numThreads size of pool
+     * @param queueCapacity maximum number of elements in queue, or -1 for non restricted capacity
+     */
+    public GroupingThreadPool(int numThreads, int queueCapacity) {
+        this.queueCapacity = queueCapacity;
         for (int i = 0; i < numThreads; i++) {
-            PoolThread poolThread = new PoolThread(group, "pool-thread-" + i, threadsLock);
-            poolThread.start();
-            threads.add(poolThread);
+            new WorkerThread(group, "worker-thread-" + i).start();
         }
     }
 
@@ -58,64 +48,58 @@ public class GroupingThreadPool {
      * @param task task to execute
      */
     public void execute(Runnable task) {
-        synchronized (queueLock) {
-            if (queue.size() == queueCapacity) {
-                throw new RejectedExecutionException();
-            }
+        synchronized (queue) {
+            ensureQueueCapacityNotExceeded();
             queue.add(task);
-            queueLock.notifyAll();
+            queue.notifyAll();
+        }
+    }
+
+    private void ensureQueueCapacityNotExceeded() {
+        if (queueCapacity != UNRESTRICTED_QUEUE && queue.size() == queueCapacity) {
+            shutdownNow();
+            throw new RejectedExecutionException();
         }
     }
 
     /** Stops all the threads in this pool sending interruption signal. */
     public void shutdownNow() {
+        System.out.println("Stopping this thread pool");
         group.interrupt();
-        controlThread.interrupt();
     }
 
     /** Returns the current number of tasks in the queue. */
     public int queueLength() {
-        synchronized (queueLock) {
+        synchronized (queue) {
             return queue.size();
         }
     }
 
-    private class ControlThread extends Thread {
-        private ControlThread() {
-            super("GroupingThreadPool-ControlThread");
+    private Runnable take() throws InterruptedException {
+        synchronized (queue) {
+            while (queue.isEmpty()) {
+                queue.wait();
+            }
+            return queue.remove();
+        }
+    }
+
+    private class WorkerThread extends Thread {
+
+        WorkerThread(ThreadGroup group, String name) {
+            super(group, name);
         }
 
         @Override
         public void run() {
             try {
                 while (!Thread.interrupted()) {
-                    Runnable receivedTask;
-                    synchronized (queueLock) {
-                        while (queue.isEmpty()) {
-                            queueLock.wait();
-                        }
-                        receivedTask = queue.remove();
-                    }
-                    PoolThread idleThread;
-                    synchronized (threadsLock) {
-                        while ((idleThread = findIdleThread()) == null) {
-                            threadsLock.wait();
-                        }
-                    }
-                    idleThread.submit(receivedTask);
+                    Runnable runningTask = take();
+                    runningTask.run();
                 }
             } catch (InterruptedException e) {
-                System.out.println("ControlThread interrupted");
+                System.out.println("Finishing thread " + getName());
             }
-        }
-
-        private PoolThread findIdleThread() {
-            for (PoolThread pt : threads) {
-                if (pt.isIdle()) {
-                    return pt;
-                }
-            }
-            return null;
         }
     }
 }

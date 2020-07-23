@@ -14,6 +14,5 @@ Must have this functionality:
 * Method for viewing run queue length
 
 My Solution:
-[PoolThread](p02exer/PoolThread.java),
 [GroupingThreadPool](p02exer/GroupingThreadPool.java),
 [GroupingThreadPoolDemo](p02exer/GroupingThreadPoolDemo.java)

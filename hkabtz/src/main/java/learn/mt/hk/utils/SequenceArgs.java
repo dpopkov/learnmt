@@ -18,4 +18,12 @@ public class SequenceArgs {
         }
         return arg;
     }
+
+    public boolean nextFlag(boolean defaultValue, String name) {
+        boolean arg = defaultValue;
+        if (args.length > current) {
+            arg = name.equals(args[current++]);
+        }
+        return arg;
+    }
 }

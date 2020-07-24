@@ -13,6 +13,14 @@ Must have this functionality:
 * Shut down using group.stop()
 * Method for viewing run queue length
 
-My Solution:
+Solution:
 [GroupingThreadPool](p02exer/GroupingThreadPool.java),
 [GroupingThreadPoolDemo](p02exer/GroupingThreadPoolDemo.java)
+
+### Exercises 2.2: Priorities
+* Construct one thread for each priority
+* Wait until they have been started, then start them all off at the same time
+* Give them each equal amount of work to do and measure how fast they complete
+
+Solution:
+[MeasurePriorities](p02exer/MeasurePriorities.java)

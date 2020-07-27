@@ -46,7 +46,7 @@ public class LambdaVsAnonymous {
 
     @SuppressWarnings("Convert2Lambda")
     private static void showLambdaRecreation() {
-        System.out.println("In loop Runnable is created every time, but Lambda is used the same.");
+        System.out.println("In loop Lambda is recreated if referenced some loop created variable.");
         System.out.println("--------------------------------------------------------------------");
         for (int i = 0; i < 3; i++) {
             Runnable r1 = new Runnable() {

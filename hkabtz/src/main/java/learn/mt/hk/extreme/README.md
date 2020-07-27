@@ -24,3 +24,18 @@ Extreme Java - Concurrency Performance
 [Immutable1](ch02/Immutable1.java)  
 17 - Designing a thread-safe class  
 18 - Exercises: [Confined DateFormats](ch02/exer),
+
+### Chapter 3 - Building Blocks
+24 - Synchronized Collections  
+25 - Concurrent Collections  
+26 - Livelock with ConcurrentHashMap.computeIfAbsent()  
+27 - CopyOnWrite collections  
+28 - BlockingQueue and Producer/Consumer  
+
+#### 3.4 - Synchronizers
+A synchronizer is any object that coordinates the control flow of threads based on its state.
+
+29 - Semaphore  
+30 - CountDownLatch  
+31 - Phaser  
+32 - Exercises  

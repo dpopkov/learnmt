@@ -9,3 +9,7 @@ Business Metrics Capturing - example of how to use volatile:
 [Metrics](src/main/java/learn/mt/mpogr/race/atomic/Metrics.java),
 [MetricsPrinter](src/main/java/learn/mt/mpogr/race/atomic/MetricsPrinter.java),
 [BusinessLogic](src/main/java/learn/mt/mpogr/race/atomic/BusinessLogic.java)
+
+Deadlock Simulation:
+[Intersection](src/main/java/learn/mt/mpogr/deadlock/Intersection.java),
+[Train](src/main/java/learn/mt/mpogr/deadlock/Train.java)

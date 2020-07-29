@@ -38,4 +38,8 @@ A synchronizer is any object that coordinates the control flow of threads based 
 29 - Semaphore  
 30 - CountDownLatch  
 31 - Phaser  
-32 - Exercises  
+32 - Exercises:  
+[ConcurrentModificationException](ch03/exer31),
+[ConcurrentModificationException - solution](ch03/exer31solution),  
+[PriorityBlockingQueue](ch03/exer32), 
+[PriorityBlockingQueue - solution](ch03/exer32solution) 

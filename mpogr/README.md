@@ -13,3 +13,8 @@ Business Metrics Capturing - example of how to use volatile:
 Deadlock Simulation:
 [Intersection](src/main/java/learn/mt/mpogr/deadlock/Intersection.java),
 [Train](src/main/java/learn/mt/mpogr/deadlock/Train.java)
+
+Using ReentrantLock in a UI JavaFX application:
+[PricesContainer](src/main/java/learn/mt/mpogr/reentrantlock/PricesContainer.java),
+[PricesUpdater](src/main/java/learn/mt/mpogr/reentrantlock/PricesUpdater.java),
+[MainPricesUI](src/main/java/learn/mt/mpogr/reentrantlock/MainPricesUI.java)

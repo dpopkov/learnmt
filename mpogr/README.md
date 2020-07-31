@@ -18,3 +18,10 @@ Using ReentrantLock in a UI JavaFX application:
 [PricesContainer](src/main/java/learn/mt/mpogr/reentrantlock/PricesContainer.java),
 [PricesUpdater](src/main/java/learn/mt/mpogr/reentrantlock/PricesUpdater.java),
 [MainPricesUI](src/main/java/learn/mt/mpogr/reentrantlock/MainPricesUI.java)
+
+Using ReentrantReadWriteLock in a simple inventory db:
+[InventoryDb](src/main/java/learn/mt/mpogr/readwrite/InventoryDb.java),
+[InventoryDbLocking](src/main/java/learn/mt/mpogr/readwrite/InventoryDbLocking.java),
+[InventoryDbReadWriteLocking](src/main/java/learn/mt/mpogr/readwrite/InventoryDbReadWriteLocking.java),
+[InventoryDbRunner](src/main/java/learn/mt/mpogr/readwrite/InventoryDbRunner.java),
+[MainReadWriteLockingComparison](src/main/java/learn/mt/mpogr/readwrite/MainReadWriteLockingComparison.java)

@@ -25,3 +25,14 @@ Using ReentrantReadWriteLock in a simple inventory db:
 [InventoryDbReadWriteLocking](src/main/java/learn/mt/mpogr/readwrite/InventoryDbReadWriteLocking.java),
 [InventoryDbRunner](src/main/java/learn/mt/mpogr/readwrite/InventoryDbRunner.java),
 [MainReadWriteLockingComparison](src/main/java/learn/mt/mpogr/readwrite/MainReadWriteLockingComparison.java)
+
+Implementing Thread Safe Queue in a Producer-Consumer Example and applying back-pressure limiting
+size of the queue:
+[MatricesPair](src/main/java/learn/mt/mpogr/prodcons/MatricesPair.java),
+[MatricesGenerator](src/main/java/learn/mt/mpogr/prodcons/MatricesGenerator.java),
+[ThreadSafeQueue](src/main/java/learn/mt/mpogr/prodcons/ThreadSafeQueue.java),
+[MatrixWriter](src/main/java/learn/mt/mpogr/prodcons/MatrixWriter.java),
+[MatrixReader](src/main/java/learn/mt/mpogr/prodcons/MatrixReader.java),
+[MatricesReaderProducer](src/main/java/learn/mt/mpogr/prodcons/MatricesReaderProducer.java),
+[MatricesMultiplierConsumer](src/main/java/learn/mt/mpogr/prodcons/MatricesMultiplierConsumer.java),
+[MainProducerConsumer](src/main/java/learn/mt/mpogr/prodcons/MainProducerConsumer.java)

@@ -36,3 +36,9 @@ size of the queue:
 [MatricesReaderProducer](src/main/java/learn/mt/mpogr/prodcons/MatricesReaderProducer.java),
 [MatricesMultiplierConsumer](src/main/java/learn/mt/mpogr/prodcons/MatricesMultiplierConsumer.java),
 [MainProducerConsumer](src/main/java/learn/mt/mpogr/prodcons/MainProducerConsumer.java)
+
+Using Compare and Set operations to implement a lock free Stack:
+[SimpleStack](src/main/java/learn/mt/mpogr/cas/SimpleStack.java),
+[LockedStack](src/main/java/learn/mt/mpogr/cas/LockedStack.java),
+[LockFreeStack](src/main/java/learn/mt/mpogr/cas/LockFreeStack.java),
+[CompareStacksImplementations](src/main/java/learn/mt/mpogr/cas/CompareStacksImplementations.java)

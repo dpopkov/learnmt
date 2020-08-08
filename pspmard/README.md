@@ -47,3 +47,6 @@ The enum Singleton is the simplest and recommended solution:
 
 ### Producer Consumer
 [ProducerConsumerWithLocks](src/main/java/learn/mt/pspmard/ajcp/locks/ProducerConsumerWithLocks.java)
+
+Consumer that uses timeout and does not block when Producer fails:
+[ProducerConsumerWithTimeOut](src/main/java/learn/mt/pspmard/ajcp/locks/ProducerConsumerWithTimeOut.java)

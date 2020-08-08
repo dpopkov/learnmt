@@ -1,6 +1,6 @@
 pspmard
 
-# Pluralsight. Applying-Concurrency-and-Multi-threading-to-Common-Java-Patterns.
+# Pluralsight. Applying Concurrency and Multi-threading to Common Java Patterns.
 
 ### False Sharing
 [FalseSharingDemo](src/main/java/learn/mt/pspmard/acmtcjp/falsesharing/FalseSharingDemo.java)
@@ -41,3 +41,9 @@ The enum Singleton is the simplest and recommended solution:
 #### 3 - Synchronized or volatile?
 - Synchronized == atomicity
 - Volatile == visibility
+
+
+# Pluralsight. Advanced Java Concurrent Patterns.
+
+### Producer Consumer
+[ProducerConsumerWithLocks](src/main/java/learn/mt/pspmard/ajcp/locks/ProducerConsumerWithLocks.java)

@@ -53,3 +53,8 @@ Consumer that uses timeout and does not block when Producer fails:
 
 Example of using Read Write Locks:
 [CacheWithReadWriteLock](src/main/java/learn/mt/pspmard/ajcp/locks/CacheWithReadWriteLock.java)
+
+### Controlling-Concurrent-Applications-Using-Barriers-and-Latches
+
+Example of CyclicBarrier usage:
+[BarrierInAction](src/main/java/learn/mt/pspmard/ajcp/barriers/BarrierInAction.java)

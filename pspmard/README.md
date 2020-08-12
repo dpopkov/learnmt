@@ -62,3 +62,6 @@ Example of CyclicBarrier usage:
 Example of atomic counting (using Unsafe for demo-purposes):
 [NonAtomicCounter](src/main/java/learn/mt/pspmard/ajcp/atomics/NonAtomicCounter.java),
 [MyAtomicCounter](src/main/java/learn/mt/pspmard/ajcp/atomics/MyAtomicCounter.java)
+
+### Producer Consumer using BlockingQueue
+[ProducerConsumer](src/main/java/learn/mt/pspmard/ajcp/blockingqueue/ProducerConsumer.java),

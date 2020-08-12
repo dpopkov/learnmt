@@ -64,4 +64,8 @@ Example of atomic counting (using Unsafe for demo-purposes):
 [MyAtomicCounter](src/main/java/learn/mt/pspmard/ajcp/atomics/MyAtomicCounter.java)
 
 ### Producer Consumer using BlockingQueue
-[ProducerConsumer](src/main/java/learn/mt/pspmard/ajcp/blockingqueue/ProducerConsumer.java),
+[ProducerConsumer](src/main/java/learn/mt/pspmard/ajcp/blockingqueue/ProducerConsumer.java)
+
+### Parallel Operations on ConcurrentHashMap
+Parallel reduce and search:
+[ConcurrentHashMapParallelPatterns](src/main/java/learn/mt/pspmard/ajcp/conchashmap/ConcurrentHashMapParallelPatterns.java)
